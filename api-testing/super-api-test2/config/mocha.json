@@ -1,0 +1,11 @@
+{
+    "diff": true,
+    "extension": ["js"],
+    "package": "./package.json",
+    "slow": 75,
+    "timeout": 20000,
+    "parallel": false,
+    "reporter": "spec",
+    "ui": "bdd",
+    "require": "@babel/register"
+}
